@@ -106,7 +106,7 @@ export default {
   },
   methods: {
     changeTab(item) {
-      // 有兩種輸入的值,一種輸入的item有item.id,另一種輸入的item沒有item.id(會呈現undefind),原本用if判斷會太攏長,改用此方法
+      // 因為carsouel 裡面有分成  不是rwd 和 rwd 呈現的畫面不一樣, 所以當 不是 rwd 的時候 會取 item.id; 所以當 是 rwd 的時候 會取 item
       // 有item.id 就會賦予給carouselContentId,item.id 為 undefind,就會用 ||,item 有值 會賦予給carouselContentId
       this.currentCarouselContentId = item.id || item;
     },
