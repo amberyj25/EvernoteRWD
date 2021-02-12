@@ -116,10 +116,12 @@ export default {
       }, 3000);
     },
     getData() {
-      this.currentCarouselContentId += 1;
-      if (this.currentCarouselContentId === this.carouselContent.length+1) {
+      if (this.currentCarouselContentId === this.carouselContent.length) {
         this.currentCarouselContentId = 1;
+        return
       }
+
+      this.currentCarouselContentId += 1;
     },
   },
   computed: {
