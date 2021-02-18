@@ -141,13 +141,12 @@ export default {
   background-color: #f8f8f8;
 }
 .carousel_text {
-  height: 350px;
+  height: 250px;
 }
 .carousel_content_quote {
   padding: 25px 0;
 }
 .carousel_content_text_outer {
-  margin-bottom: 100px;
   padding: 0 50px;
 }
 .carousel_content_quote,

@@ -84,10 +84,11 @@ export default {
 }
 .footer_nav_content {
   margin-top: 25px;
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .footer_subnav_content {
   margin: 25px 0;
+  font-size: 0.7rem;
 }
 @media (max-width: 600px) {
   .footer_nav {
@@ -95,6 +96,10 @@ export default {
   }
   .footer_nav_content {
     margin: 58px 0;
+    font-size: 1.5rem;
+  }
+  .footer_subnav_content {
+    font-size: 0.7rem;
   }
 }
 </style>

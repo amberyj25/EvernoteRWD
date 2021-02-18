@@ -144,7 +144,7 @@ main .register_summary_text_title {
 }
 .register_summary_text_content {
   text-align: left;
-  font-size: 0.3rem;
+  font-size: 0.7rem;
 }
 @media (max-width: 1200px) {
   .register {
