@@ -38,7 +38,6 @@ export default {
 <style scoped>
 .logo_link {
   display: inline-block;
-  margin-bottom: 50px;
 }
 .line_bold {
   width: 100%;

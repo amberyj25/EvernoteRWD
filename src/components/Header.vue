@@ -142,7 +142,7 @@ export default {
   padding: 10px 35px;
 }
 .logo {
-  width: 20%;
+  width: 25%;
   height: 45px;
 }
 .logo_link {
@@ -173,13 +173,13 @@ export default {
 }
 .navbar_introduction_link,
 .sidebar_introduction_link {
-  font-size: 0.3rem;
+  font-size: 0.7rem;
 }
 .navbar_sign_in_link {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .navbar_sign_in_dm_download {
-  padding: 10px 45px;
+  padding: 5px 25px;
   border: 2px solid #00a82d;
   border-radius: 3px;
   color: #00a82d;
